@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  android:text="PhoneBook"
+  android:textSize="25dp"
+  android:textStyle="bold"
+  android:textAlignment="center"
+  android:textColor="@color/colortext"
+    android:background="@color/colorAccent"/>
+<ImageView
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  android:src="@drawable/phonebook"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/b_AddContact"
+      android:text="Add Contact"
+      android:layout_gravity="center"
+      android:layout_marginTop="50dp"
+      />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_SearchContact"
+        android:text="Search Contact"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/b_AddGroup"
+      android:text="Add Group"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/b_SMS"
+      android:text="Send SMS"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      />
+</LinearLayout>
